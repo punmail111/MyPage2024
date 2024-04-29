@@ -16,6 +16,7 @@ body{
 .FlexCardBox{
     display: flex;
     justify-content: center; /* Center horizontally */
+    
 }
 .profileImage {
     object-fit: cover;
