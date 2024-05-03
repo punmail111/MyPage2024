@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ระบบข้อสอบอย่างง่าย Simple Quiz</title>
+    <link rel="stylesheet" href="./homework_2.css">
+</head>
+
+<body>
+
+    <div class="quiz-container">
+        <h3>Total: score <p id="totalScore"></p></h3>
+        <p id="question">PIM ย่อมาจากอะไร ?</p>
+        <button class="button" onclick="checkAnswer('a' , '1')">A) พีไอเอ็ม</button>
+        <button class="button" onclick="checkAnswer('b' , '1')">B) ปิ๋ม</button>
+        <button class="button" onclick="checkAnswer('c' , '1')">C) พิม</button>
+        <button class="button" onclick="checkAnswer('d' , '1')">D) ภีม</button>
+        <p id="result"></p>
+        <hr style="margin: 50px;">
+        <p id="question">คำถามข้อ 2</p>
+        <button class="button" onclick="checkAnswer('a', '2')">A) พีไอเอ็ม</button>
+        <button class="button" onclick="checkAnswer('b', '2')">B) ปิ๋ม</button>
+        <button class="button" onclick="checkAnswer('c', '2')">C) พิม</button>
+        <button class="button" onclick="checkAnswer('d', '2')">D) ภีม</button>
+        <p id="result2"></p>
+    </div>
+    
+    <script src="./homework_2.js"></script>
+</body>
+
+</html>
