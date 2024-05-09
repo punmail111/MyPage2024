@@ -21,8 +21,8 @@ function checkAnswer(answer, number) {
             break;
         case "2":
 
-            if (answer === 'b') {
-                result2.textContent = "ถูกต้อง PIM ย่อมาจาก PIM";
+            if (answer === 'd') {
+                result2.textContent = "ถูกต้อง เขียนทั้งหมดเลย มีมากกว่านี้อีก";
                 result2.style.color = 'green';
                 score[1] = 1
             } else {
